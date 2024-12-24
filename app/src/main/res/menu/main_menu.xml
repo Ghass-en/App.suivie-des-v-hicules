@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Position"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="Localisation" />
+        <item
+            android:id="@+id/nav_Users"
+            android:icon="@drawable/baseline_supervised_user_circle_24"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/baseline_notifications_24"
+            android:title="Notify" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <group>
+                    <item android:title="Share" android:icon="@drawable/baseline_share_24"
+                        android:id="@+id/nav_share"/>
+                </group>
+            </menu>
+
+
+        </item>
+
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Authenticate">
+            <menu>
+                <group>
+                    <item android:title="Logout" android:icon="@drawable/baseline_logout_24"
+                        android:id="@+id/nav_logout"/>
+                </group>
+            </menu>
+
+
+        </item>
+
+
+    </group>
+
+</menu>

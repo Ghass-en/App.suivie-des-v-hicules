@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotificationActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demo Notification n 1"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:layout_marginBottom="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type your notify title here"
+        android:id="@+id/edit_text_title"
+        android:layout_marginBottom="30dp"
+        android:textSize="23sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type your notify message here"
+        android:layout_marginBottom="30dp"
+        android:textSize="23sp"
+        android:id="@+id/edit_text_message"/>
+    <Button
+        android:id="@+id/buttonNotify1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifier"
+        android:textSize="23dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
